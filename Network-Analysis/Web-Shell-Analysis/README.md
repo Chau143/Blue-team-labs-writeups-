@@ -41,13 +41,27 @@ By analyzing the HTTP POST requests:
 - **Wireshark Filter:** `http.request.method == "POST"`
 - **Payload Analysis:** Inspected the file parameters to find PHP/ASP system execution functions (e.g., `system()`, `exec()`, `passthru()`).
 
-### 3. Reconstructing Attacker Commands (Follow HTTP Stream)
-Right-clicked the session and selected **Follow -> HTTP Stream** to reconstruct the full conversation:
-1. **Command 1:** `whoami` -> Executed as `www-data`
-2. **Command 2:** `id` / `uname -a` -> System information gathering
-3. **Command 3 (Data Exfiltration / Persistence):** `[Mô tả lệnh tiếp theo kẻ tấn công gõ]`
+<img width="1915" height="1017" alt="{EEA63358-7F84-4514-9954-F48E1BB35993}" src="https://github.com/user-attachments/assets/9aae6e38-b5d5-4626-abbb-ae6f33e0c91f" />
 
-*(Chèn ảnh chụp màn hình Follow HTTP Stream: `![HTTP Stream](screenshots/payload_extracted.png)`)*
+<img width="1259" height="1003" alt="{EFC97251-6197-44B0-89CB-43782FB72145}" src="https://github.com/user-attachments/assets/82760bd9-e711-4639-a2f3-ba87cbe75940" />
+
+### 3. Reconstructing Attacker Commands (Follow HTTP Stream)
+<img width="1914" height="1017" alt="{8C026DBD-5E34-4116-A3B8-C31762620424}" src="https://github.com/user-attachments/assets/f5fde882-c733-46e6-86dc-60901fdc7e17" />
+
+
+
+Right-clicked the session and selected **Follow -> HTTP Stream** to reconstruct the full conversation:
+1. **Command 1:** `id` -> System information gathering
+<img width="891" height="535" alt="{BA7EB9EA-EBF0-4730-8679-16593548AF14}" src="https://github.com/user-attachments/assets/aa7e14e2-3ef0-4e9e-a99b-c1525206eb2e" />
+
+2. **Command 2:** `whoami` ->  Executed as `www-data`
+<img width="1044" height="559" alt="{216EA8C7-BD15-41FB-AB23-84B94F516501}" src="https://github.com/user-attachments/assets/8c8b9d64-00af-47b7-a07f-93f5ff8b0621" />
+
+4. **Command 3 (Data Exfiltration / Persistence):** `The third command is Python script. This script tells is that is it a reverse shell to 210.251.96.4:4422 to utilize /bin/sh`
+<img width="1261" height="725" alt="{FD79BC44-B1E3-4CE4-9519-1E67A29C533C}" src="https://github.com/user-attachments/assets/cb74864a-4d41-45a9-ab11-14bebfafe48d" />
+
+
+
 
 ---
 
