@@ -32,7 +32,8 @@ First, inspect the network capture statistics and filter for web traffic:
 - Applied Wireshark filter: `http` or `http.request`
 - Identified a high volume of HTTP requests targeting the web directory `/uploads/` (or similar).
 
-*(Chèn ảnh chụp màn hình danh sách gói tin HTTP vào đây: `![HTTP Traffic](screenshots/http_stream.png)`)*
+<img width="1919" height="1026" alt="{38D0FB0B-6449-4341-AC95-E97237E4F746}" src="https://github.com/user-attachments/assets/6090ac34-eaca-42e5-8be9-040b9a366e17" />
+
 
 ### 2. Identifying the Web Shell Upload
 By analyzing the HTTP POST requests:
