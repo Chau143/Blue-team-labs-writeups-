@@ -2,7 +2,7 @@
 
 Welcome to my Cyber Defense & Incident Response portfolio. This repository contains my technical write-ups, PCAP analyses, memory forensics, and SIEM threat hunting cases solved on **Blue Team Labs Online (BTLO)**.
 
-🔗 **BTLO Public Profile:** https://blueteamlabs.online/home/user/867f6ba62e4034fa3fd18a
+🔗 **BTLO Public Profile:** https://blueteamlabs.online/public/user/867f6ba62e4034fa3fd18a
 
 ✉️ **Contact / LinkedIn:** https://www.linkedin.com/in/chau-than-b43730300/
 
