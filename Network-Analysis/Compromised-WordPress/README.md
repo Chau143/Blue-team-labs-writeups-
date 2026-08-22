@@ -20,5 +20,6 @@ head -n 1 access.log && tail -n 1 access.log -- The first event was recorded on 
 <img width="1462" height="140" alt="{3FB681A8-FAEE-4A64-AEB3-140B8076D10B}" src="https://github.com/user-attachments/assets/0e9b16f1-0e1a-4ddc-8ebb-7ff77dc6e826" />
 
 
-# Extract and deduplicate unique User-Agents
-cut -d '"' -f 6 access.log | cut -d '[' -f 1 | sort | uniq -c | sort -nr
+# Extract and deduplicate unique Ip Address 
+cat access.log | cut -d ' ' -f 1 | sort | uniq -c | sort -nr 
+<img width="1041" height="773" alt="{B4776EB8-BED3-4F3E-9D0B-63A9C37AAF18}" src="https://github.com/user-attachments/assets/e992b332-3d7b-4a18-be20-16933e5b804e" />
