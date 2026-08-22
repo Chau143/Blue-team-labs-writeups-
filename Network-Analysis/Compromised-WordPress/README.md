@@ -15,7 +15,7 @@ Determined the log timeframe and identified anomalous activity, including automa
 
 
 # Verify log time boundaries
-head -n 1 access.log && tail -n 1 access.log
+head -n 1 access.log && tail -n 1 access.log -- The first event was recorded on 12/Jan/2021 at 15:52:41 and the last event was on 14/Jan/2021 at 07:46:52. Both events happened on the source_ip at 172.21.0.1
 
 <img width="1462" height="140" alt="{3FB681A8-FAEE-4A64-AEB3-140B8076D10B}" src="https://github.com/user-attachments/assets/0e9b16f1-0e1a-4ddc-8ebb-7ff77dc6e826" />
 
