@@ -40,5 +40,10 @@ grep 'POST' access.log | grep -v '403' | cut -d ' ' -f 1 | sort | uniq -c | sort
 # The result of identifying attack vector & vulnerable plugin 
 <img width="1485" height="595" alt="{6DE64709-E496-4B9C-9EB1-1A27BB4187FA}" src="https://github.com/user-attachments/assets/e42ea4a8-c0fe-4f43-acb3-4f346fd6d515" />
 Note: Did not appear of any file upload in 'contact-form-7' 
-<img width="1466" height="765" alt="{A9588BF8-54F7-48FB-97D3-007201C6B97A}" src="https://github.com/user-attachments/assets/cc4cc9c7-a60f-4a8d-8ffc-23fc636d5f4d" />
+
+<img width="1457" height="780" alt="{84992E79-0B29-4949-A971-6B0F79259D9A}" src="https://github.com/user-attachments/assets/4d6af64b-443e-412e-8769-f0ada36e7535" />
+
 Note: 'simple-file-list' plugin(v4.2.2- arbitrary file upload RCE) where malicious payload freak.php was executed 
+# Filter and check the IP of '119.241.22.121' --Python request-- Associated with automate activities 
+<img width="1461" height="76" alt="{88214E3A-1B08-4607-9B77-ACE8BF660A81}" src="https://github.com/user-attachments/assets/9110d27f-c589-445a-b27c-355e71587941" />
+Note: This IP has identified a token that granted them access 
