@@ -13,6 +13,7 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
 ### 🌐 Network & Traffic Analysis
 * 🔍 **[Network Analysis - Web Shell](./Network-Analysis/Web-Shell-Analysis/)** 
   * *Focus:* Wireshark, HTTP Stream Analysis, Web Shell Command Extraction, Incident Timeline Construction.
+* 🔍 **[Network Analysis - Web Shell]()** 
 
 ---
 
