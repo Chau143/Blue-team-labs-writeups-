@@ -47,3 +47,13 @@ Note: 'simple-file-list' plugin(v4.2.2- arbitrary file upload RCE) where malicio
 # Filter and check the IP of '119.241.22.121' --Python request-- Associated with automate activities 
 <img width="1461" height="76" alt="{88214E3A-1B08-4607-9B77-ACE8BF660A81}" src="https://github.com/user-attachments/assets/9110d27f-c589-445a-b27c-355e71587941" />
 Note: This IP has identified a token that granted them access 
+
+# 🔍 Key Artifacts & Threat Intelligence(IOCs)
+_ Attacker IP Addresses: 
++ 119.241.22.121 ( WPScan, Upload Payloa)
++ 103.69.55.212 ( Web Shell interaction)
+_ Vulnerable Component: simple-file-list v4.2.2(RCE)
+_ Target CVE: CVE-2020-35489 (Contact Form 7) / Arbitrary File Upload (Simple File List)
+_ Malicious file(Web Shell): freak.php
+_ Compromised URI: /wp-login.php?itsec-hb-token=admin-login 
+
