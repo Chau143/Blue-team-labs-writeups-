@@ -30,10 +30,15 @@ cat access.log | cut -d '"' -f 6 | cut -d '[' -f 1 | sort | uniq -c | sort -nr
 # Extract and find the 'POST' request and eliminate '403' -- It is the request that send data to the server 
 grep 'POST' access.log | grep -v '403' | cut -d ' ' -f 1 | sort | uniq -c | sort -nr
 <img width="1224" height="269" alt="{EFE5D850-3052-4015-BACE-5A154F5E7E86}" src="https://github.com/user-attachments/assets/8070cd97-821e-4eda-8a8b-e7c6537dc0f6" />
-# Filter and check the IP of '103.69.55.212' from the second largest POST request 
+# Filter and check the IP of '103.69.55.212' from the second largest POST request -- fr34k.php file in the plugin of simple-file-list must be investigated
 <img width="1460" height="80" alt="{5E23C028-2AF9-4400-9745-FAB815AF5EF2}" src="https://github.com/user-attachments/assets/a6b23384-a74b-4471-a8c5-2cd14ff43410" />
 
 # Identifying attack vector & Vulnerable plugin -- Filter 'contact-form-7' && 'simple-file-list' 
 <img width="1445" height="78" alt="{9ED683E4-8A7D-412A-99F4-0E9E5A42095E}" src="https://github.com/user-attachments/assets/7fe4e413-333c-4971-9255-caae0e2a22b8" />
 
 <img width="1457" height="80" alt="{0946F9EC-C999-4797-B4DA-F085E127C3D6}" src="https://github.com/user-attachments/assets/1a8a1b43-de4c-4f0a-b24a-e192b773d8e6" />
+# The result of identifying attack vector & vulnerable plugin 
+<img width="1485" height="595" alt="{6DE64709-E496-4B9C-9EB1-1A27BB4187FA}" src="https://github.com/user-attachments/assets/e42ea4a8-c0fe-4f43-acb3-4f346fd6d515" />
+Note: Did not appear of any file upload in 'contact-form-7' 
+<img width="1466" height="765" alt="{A9588BF8-54F7-48FB-97D3-007201C6B97A}" src="https://github.com/user-attachments/assets/cc4cc9c7-a60f-4a8d-8ffc-23fc636d5f4d" />
+Note: 'simple-file-list' plugin(v4.2.2- arbitrary file upload RCE) where malicious payload freak.php was executed 
