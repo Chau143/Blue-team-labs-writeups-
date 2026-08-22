@@ -13,7 +13,7 @@
 ### 1. Initial Triage & Scope Determination
 Determined the log timeframe and identified anomalous activity, including automated scanner user-agents (`wpscan`, `sqlmap`, `python-requests`).
 
-```bash
+
 # Verify log time boundaries
 head -n 1 access.log && tail -n 1 access.log
 <img width="1462" height="140" alt="{3FB681A8-FAEE-4A64-AEB3-140B8076D10B}" src="https://github.com/user-attachments/assets/0e9b16f1-0e1a-4ddc-8ebb-7ff77dc6e826" />
