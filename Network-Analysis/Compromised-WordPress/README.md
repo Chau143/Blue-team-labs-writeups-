@@ -21,5 +21,19 @@ head -n 1 access.log && tail -n 1 access.log -- The first event was recorded on 
 
 
 # Extract and deduplicate unique Ip Address 
-cat access.log | cut -d ' ' -f 1 | sort | uniq -c | sort -nr 
+cat access.log | cut -d ' ' -f 1 | sort | uniq -c | sort -nr -- This showed the top hit of the ip address of access.log file was 172.21.0.1
 <img width="1041" height="773" alt="{B4776EB8-BED3-4F3E-9D0B-63A9C37AAF18}" src="https://github.com/user-attachments/assets/e992b332-3d7b-4a18-be20-16933e5b804e" />
+
+# Extract and deduplicate unique User-Agents 
+cat access.log | cut -d '"' -f 6 | cut -d '[' -f 1 | sort | uniq -c | sort -nr
+<img width="1481" height="778" alt="{E919B4E7-28A0-4CF9-86AC-B3A32B072EC3}" src="https://github.com/user-attachments/assets/4e73d948-6c0d-4a73-bc78-6e0fdbe22731" />
+# Extract and find the 'POST' request and eliminate '403' -- It is the request that send data to the server 
+grep 'POST' access.log | grep -v '403' | cut -d ' ' -f 1 | sort | uniq -c | sort -nr
+<img width="1224" height="269" alt="{EFE5D850-3052-4015-BACE-5A154F5E7E86}" src="https://github.com/user-attachments/assets/8070cd97-821e-4eda-8a8b-e7c6537dc0f6" />
+# Filter and check the IP of '103.69.55.212' from the second largest POST request 
+<img width="1460" height="80" alt="{5E23C028-2AF9-4400-9745-FAB815AF5EF2}" src="https://github.com/user-attachments/assets/a6b23384-a74b-4471-a8c5-2cd14ff43410" />
+
+# Identifying attack vector & Vulnerable plugin -- Filter 'contact-form-7' && 'simple-file-list' 
+<img width="1445" height="78" alt="{9ED683E4-8A7D-412A-99F4-0E9E5A42095E}" src="https://github.com/user-attachments/assets/7fe4e413-333c-4971-9255-caae0e2a22b8" />
+
+<img width="1457" height="80" alt="{0946F9EC-C999-4797-B4DA-F085E127C3D6}" src="https://github.com/user-attachments/assets/1a8a1b43-de4c-4f0a-b24a-e192b773d8e6" />
