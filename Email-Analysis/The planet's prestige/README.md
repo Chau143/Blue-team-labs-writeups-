@@ -17,4 +17,5 @@ Note: The file was identified as 'Zip' file even the content type displaced as p
 #### 1.DaughterCrown file extension 
 <img width="1415" height="688" alt="{4A940630-3C4C-4275-AED3-6EBE58693A2B}" src="https://github.com/user-attachments/assets/663ef87f-4f5f-4e61-a247-237c8efaed5a" />
 Note: Because of the first couples bites and then checked on garykessler -> identified as JPEG file 
+
 <img width="50" height="30" alt="{B36ECB6A-A647-44BF-BBE1-06A6396D9529}" src="https://github.com/user-attachments/assets/f4e75dc0-90a3-4c5c-849f-2f1c8b825f0d" />
