@@ -28,3 +28,7 @@ Note: Because of the first couples bites and then checked on garykessler -> iden
 Note: Because of the first couples bites and then checked on garykessler -> identified as PDF file 
 
 <img width="1917" height="967" alt="{10894330-21E5-4705-A4C3-C7AF6D19DE55}" src="https://github.com/user-attachments/assets/09b2829e-4504-4c1a-a3b0-68b90c3630af" />
+
+### 3.Money.xlsx file 
+<img width="1401" height="709" alt="{9CD34CA9-771C-4AF2-AFB2-7EC24F382D5B}" src="https://github.com/user-attachments/assets/7ad9d872-b3d2-4710-9ea9-eee6d413ac46" />
+Note: Because of the first couples bites and then checked on garykessler -> identified as Microsoft Office Open XML Format Document (Excel)
