@@ -13,7 +13,7 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
 ### 🌐 Network & Traffic Analysis
 * 🔍 **[Network Analysis - Web Shell](./Network-Analysis/Web-Shell-Analysis/)** 
   * *Focus:* Wireshark, HTTP Stream Analysis, Web Shell Command Extraction, Incident Timeline Construction.
-* 🔍 **[Network Analysis - Compromised WordPress](./Network-Analysis/Compromised-WordPress)**
+* 🔍 **[Log Analysis - Compromised WordPress](./Log-Analysis/Compromised-WordPress)**
    * *Focus:* Web Threat Hunting & Log Triage, Identify Attack Vector & Root Cause, Trace Attacker Footprints(IOCs), Mastering CLI(grep, cut, sort, uniq, head,tail)
 * 🔍 **[Email Analysis - The Planet's Prestige](<./Email-Analysis/The planet's prestige>)**
  * *Focus:* Email & Document analysis (PDF, Word Macro, Zip file), Static Malware Triage(without running malware), Extracting C2&IoCs, Used tools(HxD, exiftool) to identify the metadata and file extensions 
