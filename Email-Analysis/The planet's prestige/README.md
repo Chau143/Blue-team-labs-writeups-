@@ -14,10 +14,17 @@ This lab focuses on **Phishing & Malicious Document Analysis (DFIR/Blue Team)**:
 Note: The file was identified as 'Zip' file even the content type displaced as pdf in the file name 
 
 ## Used HxD tool to analyze three file extensions from the ZIP file of the end boundary above 
-#### 1.DaughterCrown file extension 
+#### 1.DaughterCrown file 
 <img width="1415" height="688" alt="{4A940630-3C4C-4275-AED3-6EBE58693A2B}" src="https://github.com/user-attachments/assets/663ef87f-4f5f-4e61-a247-237c8efaed5a" />
 
 Note: Because of the first couples bites and then checked on garykessler -> identified as JPEG file 
 
 
 <img width="50" height="30" alt="{B36ECB6A-A647-44BF-BBE1-06A6396D9529}" src="https://github.com/user-attachments/assets/f4e75dc0-90a3-4c5c-849f-2f1c8b825f0d" />
+
+### 2.GoodJobMajor file 
+<img width="1413" height="706" alt="{F6764F49-D78A-4235-8F24-4C010599FE21}" src="https://github.com/user-attachments/assets/6ee64c30-088d-491a-b05a-a878eacd52e7" />
+
+Note: Because of the first couples bites and then checked on garykessler -> identified as PDF file 
+
+<img width="1917" height="967" alt="{10894330-21E5-4705-A4C3-C7AF6D19DE55}" src="https://github.com/user-attachments/assets/09b2829e-4504-4c1a-a3b0-68b90c3630af" />
