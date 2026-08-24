@@ -16,7 +16,9 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
 * 🔍 **[Log Analysis - Compromised WordPress](./Log-Analysis/Compromised-WordPress)**
    * *Focus:* Web Threat Hunting & Log Triage, Identify Attack Vector & Root Cause, Trace Attacker Footprints(IOCs), Mastering CLI(grep, cut, sort, uniq, head,tail)
 * 🔍 **[Email Analysis - The Planet's Prestige](<./Email-Analysis/The planet's prestige>)**
- * *Focus:* Email & Document analysis (PDF, Word Macro, Zip file), Static Malware Triage(without running malware), Extracting C2&IoCs, Used tools(HxD, exiftool) to identify the metadata and file extensions 
+  *Focus:* Email & Document analysis (PDF, Word Macro, Zip file), Static Malware Triage(without running malware), Extracting C2&IoCs, Used tools(HxD, exiftool) to identify the metadata and file extensions
+* 🔍 **[Malware Compromised Analysis - Malware Compromised](<./Network-Analysis/Malware Compromised>)**
+  *Focus:* Identifying network-based IOCs of Dridex malware-- a banking Trojan, analyzed the establish of connection between client and server via TLS Certificate issuer infomation 
 ---
 
 *Note: Write-ups in this repository are structured for educational purposes and proof-of-work documentation.*
