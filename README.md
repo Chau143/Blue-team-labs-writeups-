@@ -18,7 +18,11 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
 * 🔍 **[Email Analysis - The Planet's Prestige](<./Email-Analysis/The planet's prestige>)**
   *Focus:* Email & Document analysis (PDF, Word Macro, Zip file), Static Malware Triage(without running malware), Extracting C2&IoCs, Used tools(HxD, exiftool) to identify the metadata and file extensions
 * 🔍 **[Malware Compromised Analysis - Malware Compromised](<./Network-Analysis/Malware Compromised>)**
-  *Focus:* Identifying network-based IOCs of Dridex malware-- a banking Trojan, analyzed the establishment of connection between client and server via TLS Certificate issuer infomation 
+  *Focus:* Identifying network-based IOCs of Dridex malware-- a banking Trojan, analyzed the establishment of connection between client and server via TLS Certificate issuer infomation
+* 🔍 **[Log Analysis - Privilege Escalation](<./Log-Analysis/Privilege Escalation>)**
+  *Focus:* Analyzing Linux command-line artifacts from compromised .bash_history log files, tracing attacker TTPs: Web application filter bypass (.phtml shell) and defense evasion, identifying local privilege escalation vectors via misconfigured SUID binaries (/usr/bin/python/)
+  
+  
 ---
 
 *Note: Write-ups in this repository are structured for educational purposes and proof-of-work documentation.*
