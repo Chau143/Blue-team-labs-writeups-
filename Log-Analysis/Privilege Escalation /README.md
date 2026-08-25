@@ -27,6 +27,7 @@ The attacker utilized `wget` to pull external enumeration scripts (`linux-exploi
 <img width="148" height="31" alt="{E31C56A8-CF10-4B10-81C1-803491F87FED}" src="https://github.com/user-attachments/assets/446de918-eeeb-4fde-97d6-320cab840803" />
 
 
+
 <img width="413" height="22" alt="{C455CFF9-B0AD-432B-BDB9-A36E2163A45B}" src="https://github.com/user-attachments/assets/3e040fbe-4790-462a-b129-ecaf5f9deaac" />
 
 
