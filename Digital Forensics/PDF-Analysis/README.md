@@ -24,14 +24,14 @@ Utilized `peepdf` to safely analyze the internal tree structure and object strea
 
 The tool flagged an automated execution vector (`/OpenAction`) tied to an embedded object stream, alongside references to Windows binaries (`cmd.exe`).
 
-```bash
-# Analyze PDF object structure and trigger actions
+
+#### Analyze PDF object structure and trigger actions
 peepdf -i README.pdf
 
 <img width="1919" height="980" alt="{002D6EE6-0EDD-45D7-984D-DC74E45288A1}" src="https://github.com/user-attachments/assets/ab159891-cde6-49e8-9989-1a5c5001dd9d" />
 
 
-# Inspect specific suspicious objects flagged by peepdf (e.g., Object 1,27,28)
+#### Inspect specific suspicious objects flagged by peepdf (e.g., Object 1,27,28)
 PP> object 1,27,28
 <img width="1639" height="894" alt="{9251D70C-3B10-47E4-AD10-68C6B5A9AE49}" src="https://github.com/user-attachments/assets/37a6356b-27d7-482d-8d53-8bad399ab05a" />
 
