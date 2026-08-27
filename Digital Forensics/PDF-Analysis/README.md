@@ -12,12 +12,16 @@
 ### 1. Initial Triage & Autorun Configuration
 Inspected the root directory of the USB drive. Parsing `autorun.inf` confirmed that inserting the USB drive triggers an automatic open action pointing to `README.pdf`. Validated the file signature (`%PDF-` / `25 50 44 46 2D`) to ensure file extension legitimacy.
 
-![Autorun Inspection](./images/01-autorun-magic-bytes.png)
+<img width="1915" height="994" alt="{151D5BE2-2F1A-46AC-B9B4-5D8ED9F21F2C}" src="https://github.com/user-attachments/assets/b5f6e4d9-fd12-4244-b204-b03a3052577a" />
+
+<img width="1918" height="969" alt="{CAA5C270-891A-4FDA-96A8-0885F41D9C48}" src="https://github.com/user-attachments/assets/6277882c-f277-4b81-b2e8-72f1b3de47f8" />
+-> Once the USB was inserted, it will automatically run and open this particular document called "README.pdf" file 
+
 *Figure 1: Autorun file analysis and magic byte verification.*
 
----
+### 2. PDF Object Inspection via peepdf 
 
-### 2. Threat Intelligence Hash Correlation
+### 3. Threat Intelligence Hash Correlation
 Calculated the cryptographic hash of `README.pdf` and queried VirusTotal to cross-reference known threat indicators.
 
 ```bash
