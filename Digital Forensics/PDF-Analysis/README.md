@@ -28,8 +28,12 @@ The tool flagged an automated execution vector (`/OpenAction`) tied to an embedd
 # Analyze PDF object structure and trigger actions
 peepdf -i README.pdf
 
-# Inspect specific suspicious objects flagged by peepdf (e.g., Object 7)
-PP> object 7
+<img width="1919" height="980" alt="{002D6EE6-0EDD-45D7-984D-DC74E45288A1}" src="https://github.com/user-attachments/assets/ab159891-cde6-49e8-9989-1a5c5001dd9d" />
+
+
+# Inspect specific suspicious objects flagged by peepdf (e.g., Object 1,27,28)
+PP> object 1,27,28
+<img width="1639" height="894" alt="{9251D70C-3B10-47E4-AD10-68C6B5A9AE49}" src="https://github.com/user-attachments/assets/37a6356b-27d7-482d-8d53-8bad399ab05a" />
 
 ### 3. Threat Intelligence Hash Correlation
 Calculated the cryptographic hash of `README.pdf` and queried VirusTotal to cross-reference known threat indicators.
