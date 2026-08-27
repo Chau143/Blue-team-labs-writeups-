@@ -3,8 +3,7 @@
 ## 🎯 Executive Summary
 * **Scenario:** A client suffered an employee data breach. Physical evidence collected from the premises included a suspicious USB drive dropped on site.
 * **Domain:** Digital Forensics & Malicious Document (Maldoc) Static Analysis.
-* **Key Findings:** The USB drive configured `autorun.inf` to launch a weaponized PDF (`README.pdf`). The PDF contained malicious `/OpenAction` streams designed to execute `cmd.exe` on Windows targets upon opening.
-
+* **Key Findings:** The USB drive configured `autorun.inf` to launch a weaponized PDF (`README.pdf`).Performing static PDF malware triage using **`peepdf`** and CLI utilities (`file`, `xxd`, `strings`) to parse object streams and detect embedded `/OpenAction` execution triggers targeting `cmd.exe`.
 ---
 
 ## 🔍 Investigation Breakdown
