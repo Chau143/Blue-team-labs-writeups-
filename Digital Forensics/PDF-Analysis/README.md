@@ -20,6 +20,16 @@ Inspected the root directory of the USB drive. Parsing `autorun.inf` confirmed t
 *Figure 1: Autorun file analysis and magic byte verification.*
 
 ### 2. PDF Object Inspection via peepdf 
+Utilized `peepdf` to safely analyze the internal tree structure and object streams of `README.pdf` without executing the file. 
+
+The tool flagged an automated execution vector (`/OpenAction`) tied to an embedded object stream, alongside references to Windows binaries (`cmd.exe`).
+
+```bash
+# Analyze PDF object structure and trigger actions
+peepdf -i README.pdf
+
+# Inspect specific suspicious objects flagged by peepdf (e.g., Object 7)
+PP> object 7
 
 ### 3. Threat Intelligence Hash Correlation
 Calculated the cryptographic hash of `README.pdf` and queried VirusTotal to cross-reference known threat indicators.
