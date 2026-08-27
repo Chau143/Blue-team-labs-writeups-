@@ -38,6 +38,11 @@ PP> object 1,27,28
 ### 3. Threat Intelligence Hash Correlation
 Calculated the cryptographic hash of `README.pdf` and queried VirusTotal to cross-reference known threat indicators.
 
-```bash
-# Calculate SHA256 hash for Threat Intel lookup
+
+#### Calculate SHA256 hash for Threat Intel lookup
 sha256sum README.pdf
+<img width="811" height="50" alt="{98CD183A-C5A7-4460-851D-75BC8E91C18D}" src="https://github.com/user-attachments/assets/e4ddcd07-ae62-42cf-9ba7-164f2d905164" />
+
+<img width="1906" height="969" alt="{B3E4F2F9-8405-4CD0-8FE1-4A875CED4E2C}" src="https://github.com/user-attachments/assets/9ed5ad4d-fcd0-4900-9dbd-87e13edab488" />
+
+
