@@ -21,7 +21,8 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
   *Focus:* Identifying network-based IOCs of Dridex malware-- a banking Trojan, analyzed the establishment of connection between client and server via TLS Certificate issuer infomation
 * 🔍 **[Log Analysis - Privilege Escalation](<./Log-Analysis/Privilege Escalation>)**
   *Focus:* Analyzing Linux command-line artifacts from compromised .bash_history log files, tracing attacker TTPs: Web application filter bypass (.phtml shell) and defense evasion, identifying local privilege escalation vectors via misconfigured SUID binaries (/usr/bin/python/)
-* 🔍 **[Digital Forensics - PDF Analysis ](<./Digital Forensics/PDF->)**
+* 🔍 **[Digital Forensics - PDF Analysis ](<./Digital Forensics/PDF-Analysis>)**
+  *Focus:* Investigating USB drive artifacts to analyze physical drop attack vectors. Parsing autorun execution mechanics (`autorun.inf` pointing to `README.pdf`). Performing static PDF malware triage using **`peepdf`** and CLI utilities (`file`, `xxd`, `strings`) to parse object streams and detect embedded `/OpenAction` execution triggers targeting `cmd.exe`.
   
 ---
 
