@@ -23,7 +23,7 @@ Welcome to my Cyber Defense & Incident Response portfolio. This repository conta
   *Focus:* Analyzing Linux command-line artifacts from compromised .bash_history log files, tracing attacker TTPs: Web application filter bypass (.phtml shell) and defense evasion, identifying local privilege escalation vectors via misconfigured SUID binaries (/usr/bin/python/)
 * 🔍 **[Digital Forensics - PDF Analysis ](<./Digital Forensics/PDF-Analysis>)**
   *Focus:* Investigating USB drive artifacts to analyze physical drop attack vectors. Parsing autorun execution mechanics (`autorun.inf` pointing to `README.pdf`). Performing static PDF malware triage using **`peepdf`** and CLI utilities (`file`, `xxd`, `strings`) to parse object streams and detect embedded `/OpenAction` execution triggers targeting `cmd.exe`.
-* 🔍 **[Memory-Analysis - Ransomware ](<./Memory-Analysis/PDF-Ransomware>)**
+* 🔍 **[Memory-Analysis - Ransomware ](<./Memory-Analysis/Ransomware>)**
   *Focus:* Using Volatility tool to analyze the confirmation of active memory dump "WannaCry" ransomware injection. The threat originated from an executable binary (or4qtckT.exe, PID 2732) executed from the desktop path, which subsequently spawned @WannaDecryptor@.exe and taskdl.exe(temporary file deletion). Encryption public key file (00000000.eky), confirming successful ransomware initialization 
   
 ---
